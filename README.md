@@ -1,13 +1,15 @@
 # dubbd-keycloak
 A Defense Unicorns Big Bang Repo with Keycloak
 
-## Create the package
+## Build Package
 ```
 zarf package create . --confirm
 ```
 
-## Deploy the package
-Make sure you have the bigbang.cert and bigbang.key files in the deploy directory before running this command
+## Deploy Package
+Ensure that the `bigbang.dev.cert` and `bigbang.dev.key` files exist in the deploy directory before 
+running the following command:
+
 ```
 zarf package deploy zarf-package*.tar.zst --confirm
 ```

@@ -97,10 +97,10 @@ addons:
           subPath: quarkus.properties
       secrets:
         realm:
-          StringData:
+          stringData:
             realm.json: '{{ .Files.Get "resources/dev/baby-yoda.json" }}'
         customreg:
-          StringData:
+          stringData:
             customreg.yaml: '{{ .Files.Get "resources/dev/baby-yoda.yaml" }}'
         env:
           stringData:
