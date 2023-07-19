@@ -8,7 +8,7 @@ package:
       flux_version: "0.41.2"
   deploy:
     set:
-      realm: project-blue
+      realm: baby-yoda
       domain: bigbang.dev
       public_key_file: bigbang.dev.key
       public_cert_file: bigbang.dev.cert
