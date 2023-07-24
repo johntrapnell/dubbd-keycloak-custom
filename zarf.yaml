@@ -80,7 +80,7 @@ components:
       name: bigbang
       url: oci://ghcr.io/defenseunicorns/packages/dubbd:0.4.2-skeleton
     images:
-      - registry1.dso.mil/ironbank/big-bang/p1-keycloak-plugin:3.2.1
+      - ghcr.io/johntrapnell/keycloak-p1-auth-plugin:3.2.1
       - ghcr.io/kirankt/keycloak-custom-theme:0.1.2
     extensions:
       bigbang:
